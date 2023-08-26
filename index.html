@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta-datos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <!-- Link Css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Links Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <img src="https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Foto-de-montañas-y-lagos" class="foto1" data-description="Para los amantes de la tranquilidad de un lago a los pies de las montañas no existe 
+        nada mejor que estar allí, relajarse y tomar unas buenas fotografias acompañado de buenos amigos">
+        <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Foto-de-montañas-y-lagos" class="foto2" data-description="Si existiera la receta para una postal preciosa no cabe duda que tanto el lago como la montaña y un cielo abierto serian ingredientes indispensables, y esque si por separado son agradables a la vista y el alma, en conjunto pareciera que se multiplicase su belleza"> 
+        <img src="https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZXN0cmVsbGFzfGVufDB8fDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="cielo-estrellado" class="foto3" data-description="Observar la via lactea en su máximo esplendor es sobrecojedor, te hace sentir pequeño y la vez te sientes parte de un todo el cual no existiria sin ti">
+        <img src="https://images.unsplash.com/photo-1566873465716-1834983be9ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="downtown" class="foto5" data-description="Si eres de los que prefiere las ciudades y sus atardeceres, no te culpo, y esque que mejor paisaje que aquel que florece subitamente como por arte de magia de entre el bullicio y el ajetreo urbano tras un largo dia solo para reconfortarte a ti">
+        <img src="https://images.unsplash.com/photo-1629316583544-7d83debbc4ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="foto-bosque" class="foto6" data-description="En el silencio del bosque podras escuchar tu voz interior diciendo.. !'ven a visitarme mas seguido'!">
+        <img src="https://images.unsplash.com/photo-1600582910964-5b7c109e6868?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGxheWFzfGVufDB8fDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="foto-playa" class="foto7" data-description="Nada mejor que un dia de playa junto a buenos amigos y uno que otro refresco y bocadillos bajo el calor del sol y a metros del frescor del oceano y la perfección del horizonte ">
+        <img src="https://images.unsplash.com/photo-1682686581264-c47e25e61d95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8cGFpc2FqZXN8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&w=500&q=60" alt="foto-duna" class="foto8" data-description="si eres de los que ama ver como van quedando tus huellas estampadas entre los millones de granitos de arena, las dunas son un buen lugar a tener en cuanta en tu proximo paseo con amigos">
+        <img src="https://images.unsplash.com/photo-1619050405558-b5f39da6eef8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZG93bnRvd258ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&w=500&q=60" alt="foto-downtown" class="foto9" data-description="Si eres de los que prefiere las ciudades y sus atardeceres, no te culpo, y esque que mejor paisaje que aquel que florece subitamente como por arte de magia de entre el bullicio y el ajetreo urbano tras un largo dia solo para reconfortarte a ti">
+        <img src="https://images.unsplash.com/photo-1606313695934-9f1e08d020d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c25vdyUyMG1vdW50YWlufGVufDB8fDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="snowed-mountains" class="foto10" data-description="Para los mas extremos estan las cumbres de las montañas, alli pondras a prueba tu estado físico y tu fortaleza mental a cambio de una experiencia que no olvidaras por el resto de tu vida como una de las mas bellas que jamas viviste">
+
+
+        <!-- Ventana Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+            <div id="caption" class="caption"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
